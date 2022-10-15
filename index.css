@@ -2,6 +2,7 @@ body {
     margin: 52px;
     background: #1F2937;
     font-family: "Inter", sans-serif;
+    color: #D5D4D8;
     
 }
 h1 {
@@ -29,19 +30,42 @@ span {
     font-family: "Karla";
     
 }
-/* input {
-    margin-left: 20px;
-} */
+
+
+.interactive-container{
+    display: flex;
+}
+
+.choices{
+    justify-content: space-around;
+    margin-left: 100px;
+}
 hr {
     border: 1px solid #2F3E53;
 }
 
-div {
+.input{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#input-length{
+    text-align: center;
+}
+
+.input input{
+    border-radius: 5px;
+}
+
+.password-containers {
     display: flex;
     justify-content: space-between;
     color: #10B981;
     align-items: center;
     margin-top: 10px;
+
     
 }
 
@@ -53,8 +77,8 @@ div {
 
     background: #273549;
     border-radius: 6px;
-    padding-left: 40px;
-    
-    
+    padding-left: 10px;
+    padding-top: 12px;
+
     
 }

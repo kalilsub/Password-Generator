@@ -11,12 +11,41 @@
     <body>
         <h1>Generate a <span>random password</span></h1>
         <p>Never use an insecure password again</p>
-        <button id="password-btn">Generate a password</button>
-        <!-- <input id="input-length" 
-                placeholder="Enter password length"/>
-        <input type="submit"/> -->
+        <form>
+            
+        </form>
+        <div class="interactive-container">
+            <button id="password-btn">Generate a password</button>
+
+        <div class="interactive-container choices">
+            <div class="input">
+                <label>Choose length (8-15)</label>
+                <input id="input-length" 
+                type="number"
+                required
+                min="8" max="15"/>
+            </div>
+
+            <div class="input">
+                <label>Symbols</label>
+                <input id="symbols-check" 
+                type="checkbox"
+                />
+            </div> 
+
+            <div class="input">
+                <label>Numbers</label>
+                <input id="numbers-check" 
+                type="checkbox"
+                />
+            </div>
+        </div>
+            
+        </div>
+        
+        
         <hr>
-        <div>
+        <div class="password-containers">
             <div id="password-one" class="password"></div>
             <div id="password-two" class="password"></div>
         </div>
